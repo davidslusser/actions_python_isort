@@ -43,5 +43,5 @@ runs:
       shell: bash
        
     - name: "Run isort"
-      run: "isort ${{ inputs.options }} ${{ src }}"
+      run: "isort ${{ inputs.options }} ${{ inputs.src }}"
       shell: bash
