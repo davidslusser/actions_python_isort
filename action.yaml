@@ -19,6 +19,10 @@ inputs:
     required: false
     type: string
     default: "3.x"
+  src:
+    required: false
+    type: string
+    default: "."
 runs:
   using: "composite"
   steps:

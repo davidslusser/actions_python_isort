@@ -32,7 +32,7 @@ jobs:
     steps:
       - uses: davidslusser/actions_python_isorty@v1.0.0
         with:
-          options: "--debug"
+          options: "--check --diff"
           pip_install_command: "pip install -e .[dev]"
           python_version: "3.9"
 ```
